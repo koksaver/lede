@@ -67,7 +67,7 @@ TARGET_DEVICES += linksys_mr7350
 #endef
 #TARGET_DEVICES += eap610-outdoor
 
-define Device/360_v6
+define Device/qihoo_v6
 	$(call Device/FitImage)
 	$(call Device/UbiFit)
 	DEVICE_VENDOR := Qihoo 360
@@ -78,7 +78,7 @@ define Device/360_v6
 	DEVICE_PACKAGES := ath11k-wifi-qihoo_v6
 	SOC := ipq6018
 endef
-TARGET_DEVICES += 360_v6
+TARGET_DEVICES += qihoo_v6
 
 define Device/zn_m2
 	$(call Device/FitImage)
